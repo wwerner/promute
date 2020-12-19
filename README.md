@@ -7,6 +7,8 @@ Within a scroll listener, it ...
 * ... opens the tweets context menu,
 * ... and clicks the mute button
 
+You can review the muted accounts as usual in your twitter settings: https://twitter.com/settings/muted/all
+
 ## Installation
 
 You'll be hopefully able to install it from the Chrome Extensions Web Store at 
