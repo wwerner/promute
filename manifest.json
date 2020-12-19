@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["*://twitter.com/*"],
-      "js": ["test.js"]
+      "js": ["promute.js"]
     }
   ]
 }
