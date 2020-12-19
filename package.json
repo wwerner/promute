@@ -1,0 +1,19 @@
+{
+  "name": "promute",
+  "version": "0.0.1",
+  "description": "Promute is a Chrome Extension that automatically mutes twitter accounts sending promotions to your timeline as you scroll by.",
+  "scripts": {
+    "dist": "zip dist.zip manifest.json promute.js LICENSE README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwerner/promute.git"
+  },
+  "author": "Wolfgang Werner <mail@wolfgang-werner.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wwerner/promute/issues"
+  },
+
+  "homepage": "https://github.com/wwerner/promute#readme"
+}
