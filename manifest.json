@@ -3,10 +3,19 @@
   "manifest_version": 2,
   "version": "0.0.1",
   "description": "Promute automatically mutes twitter accounts sending promotions to your timeline as you scroll by.",
+  "icons": {
+    "16": "logo_16.png",
+    "48": "logo_48.png",
+    "128": "logo_128.png"
+  },
   "content_scripts": [
     {
-      "matches": ["*://twitter.com/*"],
-      "js": ["promute.js"]
+      "matches": [
+        "*://twitter.com/*"
+      ],
+      "js": [
+        "promute.js"
+      ]
     }
   ]
 }
