@@ -42,7 +42,7 @@ Source: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Y
 * click `Load Unpacked`,
 * and select the downloaded repository's root folder
 
-![Install Chromw Extension](doc/install-manually-ch.png "Install Chrome Extension")
+![Install Chrome Extension](doc/install-manually-ch.png "Install Chrome Extension")
 
 🥳 Enjoy your twitter feed w/o promotions.
 
