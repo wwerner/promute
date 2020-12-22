@@ -13,19 +13,19 @@ You can review the muted accounts as usual in your twitter settings: https://twi
 
 Promute is known to work with current versions of Firefox (v72) and Chrome (v87). Other browsers have not been tested.
 
-## Installation
+## Installation 
 
-You'll be hopefully able to install it from the Chrome and Firefox extension directory at 
-https://chrome.google.com/webstore/category/extensions and https://addons.mozilla.org/de/firefox/, resp.
+### From Addon Directory
 
-In the meantime, you'll need to perform a few manual steps.
+For Firefox, install the extension from the FF addon directory: https://addons.mozilla.org/en-US/firefox/addon/promute/.
 
-* Clone or download & unpack (https://github.com/wwerner/promute/archive/main.zip) this repository.
+You'll be hopefully able to install it from the Chrome Web Store as well soon.
+In the meantime, use the manual installation method.
 
+### Manual Installation - Firefox
 
-### Firefox
-
-* Open the about:debugging page, 
+* Clone or download & unpack (https://github.com/wwerner/promute/archive/main.zip) this repository,
+* open the about:debugging page, 
 * click "This Firefox" (in newer versions of Firefox), 
 * click "Load Temporary Add-on", 
 * then select any file in your extension's directory.
@@ -34,10 +34,10 @@ Source: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Y
 
 ![Install Firefox Extension](doc/install-manually-ff.png "Install Firefox Extension")
 
-### Chrome
+### Manual Installation - Chrome
 
-
-* Go to chrome://extensions,
+* Clone or download & unpack (https://github.com/wwerner/promute/archive/main.zip) this repository,
+* go to chrome://extensions,
 * enable `Developer Mode`,
 * click `Load Unpacked`,
 * and select the downloaded repository's root folder
