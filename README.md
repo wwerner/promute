@@ -15,12 +15,10 @@ Promute is known to work with current versions of Firefox (v72) and Chrome (v87)
 
 ## Installation 
 
-### From Addon Directory
+### As browser addon 
 
-For Firefox, install the extension from the FF addon directory: https://addons.mozilla.org/en-US/firefox/addon/promute/.
-
-You'll be hopefully able to install it from the Chrome Web Store as well soon.
-In the meantime, use the manual installation method.
+* Chrome: https://chrome.google.com/webstore/detail/promute/jcglghjinanokeldhiebokopnoppbnnn
+* Firefox: https://addons.mozilla.org/en-US/firefox/addon/promute/
 
 ### Manual Installation - Firefox
 
