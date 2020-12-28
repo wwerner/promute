@@ -11,7 +11,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://twitter.com/home"
+        "*://twitter.com/*"
       ],
       "js": [
         "promute.js"
