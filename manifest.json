@@ -1,7 +1,7 @@
 {
   "name": "Promute",
   "manifest_version": 2,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Promute automatically mutes twitter accounts sending promotions to your timeline as you scroll by.",
   "icons": {
     "16": "./logo_16.png",
@@ -11,8 +11,7 @@
   "content_scripts": [
     {
       "matches": [
-        "http://twitter.com/home",
-        "https://twitter.com/home"
+        "*://twitter.com/*"
       ],
       "js": [
         "promute.js"
