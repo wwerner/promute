@@ -13,9 +13,7 @@ You can review the muted accounts as usual in your twitter settings: https://twi
 
 Promute is known to work with current versions of Firefox (v72) and Chrome (v87). Other browsers have not been tested.
 
-## Installation 
-
-### As browser addon 
+## Installation
 
 * Chrome: https://chrome.google.com/webstore/detail/promute/jcglghjinanokeldhiebokopnoppbnnn
 * Firefox: https://addons.mozilla.org/en-US/firefox/addon/promute/
