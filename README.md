@@ -1,6 +1,8 @@
 # promute
 Promute is a browser addon that automatically mutes twitter accounts sending promotions to your timeline as you scroll by.
 
+It's not very special, but scratches my personal itch and I can't mislay it now that it's published for Chrome and FF.
+
 It does the simplest thing that could possibly work.
 Within a scroll listener, it ...
 * ... identifies promoted tweets by the 'Promoted' label at the bottom,
