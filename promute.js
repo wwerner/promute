@@ -1,4 +1,4 @@
-const XPATH_PROMOTED_TWEET_MENU_ACTIVATORS = '//div[@role="group"]/following-sibling::div/../..//div[@data-testid="caret"]'
+const XPATH_PROMOTED_TWEET_MENU_ACTIVATORS = '//div[@role="group"]/../following-sibling::div/../../..//div[@aria-label="More"]'
 const XPATH_MUTE_BUTTON = '//div[@role="menu"]//div[@data-testid="block"]/preceding-sibling::div[@role="menuitem"][1]'
 
 function debounce(func, wait = 100) {
