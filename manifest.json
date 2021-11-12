@@ -1,7 +1,7 @@
 {
   "name": "Promute",
   "manifest_version": 2,
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Promute automatically mutes twitter accounts sending promotions to your timeline as you scroll by.",
   "icons": {
     "16": "./logo_16.png",
