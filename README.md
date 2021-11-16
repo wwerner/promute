@@ -1,6 +1,6 @@
 [![CI](https://github.com/wwerner/promute/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/wwerner/promute/actions/workflows/node.js.yml)
 
-# promute
+# ![Logo](https://github.com/wwerner/promute/blob/main/logo_48.png?raw=true) promute
 Promute is a browser addon that automatically mutes twitter accounts sending promotions to your timeline as you scroll by.
 
 It's not very special, but scratches my personal itch and I can't mislay it now that it's published for Chrome and FF.
