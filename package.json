@@ -1,6 +1,6 @@
 {
   "name": "promute",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Promute is a Chrome Extension that automatically mutes twitter accounts sending promotions to your timeline as you scroll by.",
   "scripts": {
     "dist": "zip dist.zip manifest.json promute.js LICENSE README.md logo_*.png" 
