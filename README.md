@@ -7,7 +7,7 @@ It's not very special, but scratches my personal itch and I can't mislay it now 
 
 It does the simplest thing that could possibly work.
 Within a scroll listener, it ...
-* ... identifies promoted tweets by the 'Promoted' label at the bottom,
+* ... identifies promoted tweets by the 'Ad' label beside the menu activator,
 * ... opens the tweets context menu,
 * ... and clicks the mute button
 
