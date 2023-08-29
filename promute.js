@@ -1,5 +1,6 @@
 const XPATH_PROMOTED_TWEET_MENU_ACTIVATORS = '//span[text()="Ad"]/../..//div[@aria-haspopup="menu"]'
 const XPATH_MUTE_BUTTON = '//div[@role="menu"]//div[@data-testid="block"]/preceding-sibling::div[@role="menuitem"][1]'
+const XPATH_PROMOTED_TWEET_WITH_HEADING = '//span[text() = "Promoted Post"]//ancestor::div[@data-testid="cellInnerDiv"]'
 
 function debounce(func, wait = 100) {
     let timeout;
@@ -32,6 +33,10 @@ mutePromoters = () => {
             muteButton.click()
         }, 250)
     })
+
+    // remove promoted tweet blocks in personal timelines; simply muting does not remote them from there
+    let promotedTweetBlock = document.evaluate(XPATH_PROMOTED_TWEET_WITH_HEADING, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null)
+    promotedTweetBlock?.singleNodeValue?.remove()
 }
 
 debouncedMutePromoters = debounce(mutePromoters, 1000)

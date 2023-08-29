@@ -11,6 +11,8 @@ Within a scroll listener, it ...
 * ... opens the tweets context menu,
 * ... and clicks the mute button
 
+In personal timelines, it hides promoted tweets as muting there does _not_ remove the tweet in question.
+
 You can review the muted accounts as usual in your twitter settings: https://twitter.com/settings/muted/all
 
 ## Requirements
