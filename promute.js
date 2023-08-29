@@ -1,6 +1,6 @@
 const XPATH_PROMOTED_TWEET_MENU_ACTIVATORS = '//span[text()="Ad"]/../..//div[@aria-haspopup="menu"]'
-const XPATH_MUTE_BUTTON = '//div[@role="menu"]//div[@data-testid="block"]/preceding-sibling::div[@role="menuitem"][1]'
-const XPATH_PROMOTED_TWEET_WITH_HEADING = '//span[text() = "Promoted Post"]//ancestor::div[@data-testid="cellInnerDiv"]'
+const XPATH_MUTE_BUTTON = '//div[@role="menuitem"]//descendant::span[contains(text(),"Mute")]'
+const XPATH_SURROUNDING_TWEET = '//ancestor::article'
 
 function debounce(func, wait = 100) {
     let timeout;
@@ -31,12 +31,12 @@ mutePromoters = () => {
                 muteButton = muteButton.singleNodeValue
             }
             muteButton.click()
+
+            // remove element if it still exists, as is the case in threads and personal timelines
+            let promotedTweet = document.evaluate(XPATH_SURROUNDING_TWEET, promotedTweetMenuActivator, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null)
+            promotedTweet?.singleNodeValue?.remove()
         }, 250)
     })
-
-    // remove promoted tweet blocks in personal timelines; simply muting does not remote them from there
-    let promotedTweetBlock = document.evaluate(XPATH_PROMOTED_TWEET_WITH_HEADING, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null)
-    promotedTweetBlock?.singleNodeValue?.remove()
 }
 
 debouncedMutePromoters = debounce(mutePromoters, 1000)
